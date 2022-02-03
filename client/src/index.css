@@ -1,0 +1,116 @@
+/*------------------BODY-----------------*/
+#root {
+  overflow-x: hidden;
+  /*color: #eae6e5;
+  background-color: #12130f;
+  font-family: 'Lato';*/
+}
+#screen {
+  min-height: calc(100vh - 168px);
+}
+.bg-lightgray {
+  background-color: #f8f9fa;
+}
+
+/*------------------COMPONENTS-----------------*/
+#img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 3 / 2;
+  max-width: 183px;
+  max-height: 122px;
+}
+#img-container img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  /*object-fit: cover;*/
+}
+.build-card-like {
+  cursor: pointer;
+}
+.img-buildscreen {
+  justify-content: end !important;
+}
+.img-profilescreen {
+  max-width: 120px !important;
+  max-height: 80px !important;
+}
+.img-profilescreen-second {
+  max-width: 87px !important;
+  max-height: 58px !important;
+}
+.img-managebuildscreen {
+  max-width: 102px !important;
+  max-height: 68px !important;
+}
+
+.error-message {
+  margin-bottom: 11px;
+  font-size: 17px;
+  color: #dc3545;
+}
+.warning-message {
+  margin-bottom: 11px;
+  font-size: 17px;
+  color: #ffc107;
+}
+.success-message {
+  margin-bottom: 11px;
+  font-size: 17px;
+  color: #198754;
+}
+
+#thumb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 3 / 2;
+  width: 183px;
+  height: 122px;
+  cursor: pointer;
+}
+#thumb-container img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  /*object-fit: cover;*/
+}
+.thumb-img {
+  padding: 0px !important;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #d0d4d7;
+  border-style: solid;
+  background-color: white;
+}
+.thumb-dropzone {
+  padding: 0px !important;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: #d0d4d7;
+  border-style: dashed;
+  background-color: white;
+  color: #717775;
+  font-size: 51px;
+}
+
+#component-fittings {
+  height: 63px;
+}
+
+/*------------------MEDIA QUERIES-----------------*/
+@media (max-width: 992px) {
+  #screen {
+    min-height: calc(100vh - 96px);
+  }
+}
+
+@media (max-width: 575px) {
+  .img-buildscreen {
+    justify-content: start !important;
+  }
+}

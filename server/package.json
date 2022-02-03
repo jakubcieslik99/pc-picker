@@ -1,0 +1,35 @@
+{
+  "name": "pc-picker-server",
+  "version": "1.1.0",
+  "description": "PC Picker",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec babel-node src/server.js",
+    "dev-win": "nodemon --watch src --exec ./node_modules/.bin/babel-node src/server.js",
+    "build": "babel src -d dist",
+    "prod": "node dist/server.js"
+  },
+  "author": "Jakub Cieślik",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.1",
+    "express-slow-down": "^1.4.0",
+    "http-errors": "^1.8.1",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2"
+  }
+}
