@@ -1,6 +1,6 @@
 {
   "name": "pc-picker-server",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "PC Picker",
   "main": "server.js",
   "scripts": {
@@ -12,21 +12,21 @@
   "author": "Jakub Cieślik",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/node": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-rate-limit": "^5.5.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-rate-limit": "^6.2.0",
     "express-slow-down": "^1.4.0",
-    "http-errors": "^1.8.1",
-    "joi": "^17.5.0",
+    "http-errors": "^2.0.0",
+    "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "multer": "^1.4.4",
     "mysql2": "^2.3.3",
