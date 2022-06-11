@@ -9,7 +9,7 @@ Express.js app as a backend (server) and React app as a frontend (client).
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/jakubcieslik99/pc-picker?color=orange&filename=client%2Fpackage.json&label=client%20version)
 ![GitHub top language](https://img.shields.io/github/languages/top/jakubcieslik99/pc-picker)
 ![GitHub repo size](https://img.shields.io/github/repo-size/jakubcieslik99/pc-picker)
-[![Website)](https://img.shields.io/website?label=demo%20website&url=https%3A%2F%2Fdiscount.jakubcieslik.com%2F)](https://pc-picker.jakubcieslik.com/)
+[![Website)](https://img.shields.io/website?label=demo%20website&url=https%3A%2F%2Fpc-picker.jakubcieslik.com%2F)](https://pc-picker.jakubcieslik.com/)
 
 ## Features
 
@@ -102,7 +102,13 @@ Express.js app as a backend (server) and React app as a frontend (client).
 
 - `WEBAPP_URL`
 
-- `MONGODB_URI`
+- `MYSQL_HOST`
+
+- `MYSQL_USER`
+
+- `MYSQL_PASSWORD`
+
+- `MYSQL_DATABASE`
 
 - `JWT_TOKEN_SECRET`
 
